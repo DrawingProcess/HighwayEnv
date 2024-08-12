@@ -33,7 +33,7 @@ class BicycleVehicle(Vehicle):
     
     See Chapter 2 of Lateral Vehicle Dynamics. Vehicle Dynamics and Control. Rajamani, R. (2011)
     """
-    MASS: float = 1  # [kg]
+    MASS: float = 1000  # [kg]
     LENGTH_A: float = Vehicle.LENGTH / 2  # [m]
     LENGTH_B: float = Vehicle.LENGTH / 2  # [m]
     INERTIA_Z: float = 1/12 * MASS * (Vehicle.LENGTH ** 2 + Vehicle.WIDTH ** 2)  # [kg.m2]
